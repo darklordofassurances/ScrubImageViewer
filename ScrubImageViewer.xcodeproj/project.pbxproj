@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBF437421C90ED3100317E15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF437411C90ED3100317E15 /* main.m */; };
+		DBF437451C90ED3100317E15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF437441C90ED3100317E15 /* AppDelegate.m */; };
+		DBF437481C90ED3100317E15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF437471C90ED3100317E15 /* ViewController.m */; };
+		DBF4374B1C90ED3100317E15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF437491C90ED3100317E15 /* Main.storyboard */; };
+		DBF4374D1C90ED3100317E15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBF4374C1C90ED3100317E15 /* Assets.xcassets */; };
+		DBF437501C90ED3100317E15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF4374E1C90ED3100317E15 /* LaunchScreen.storyboard */; };
+		DBF4375B1C90ED3100317E15 /* ScrubImageViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF4375A1C90ED3100317E15 /* ScrubImageViewerTests.m */; };
+		DBF437661C90ED3100317E15 /* ScrubImageViewerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF437651C90ED3100317E15 /* ScrubImageViewerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBF437571C90ED3100317E15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF437351C90ED3100317E15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBF4373C1C90ED3100317E15;
+			remoteInfo = ScrubImageViewer;
+		};
+		DBF437621C90ED3100317E15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF437351C90ED3100317E15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBF4373C1C90ED3100317E15;
+			remoteInfo = ScrubImageViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBF4373D1C90ED3100317E15 /* ScrubImageViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrubImageViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF437411C90ED3100317E15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBF437431C90ED3100317E15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DBF437441C90ED3100317E15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DBF437461C90ED3100317E15 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DBF437471C90ED3100317E15 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DBF4374A1C90ED3100317E15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBF4374C1C90ED3100317E15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBF4374F1C90ED3100317E15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBF437511C90ED3100317E15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBF437561C90ED3100317E15 /* ScrubImageViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrubImageViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF4375A1C90ED3100317E15 /* ScrubImageViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrubImageViewerTests.m; sourceTree = "<group>"; };
+		DBF4375C1C90ED3100317E15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBF437611C90ED3100317E15 /* ScrubImageViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrubImageViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF437651C90ED3100317E15 /* ScrubImageViewerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrubImageViewerUITests.m; sourceTree = "<group>"; };
+		DBF437671C90ED3100317E15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBF4373A1C90ED3100317E15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF437531C90ED3100317E15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF4375E1C90ED3100317E15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBF437341C90ED3100317E15 = {
+			isa = PBXGroup;
+			children = (
+				DBF4373F1C90ED3100317E15 /* ScrubImageViewer */,
+				DBF437591C90ED3100317E15 /* ScrubImageViewerTests */,
+				DBF437641C90ED3100317E15 /* ScrubImageViewerUITests */,
+				DBF4373E1C90ED3100317E15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBF4373E1C90ED3100317E15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBF4373D1C90ED3100317E15 /* ScrubImageViewer.app */,
+				DBF437561C90ED3100317E15 /* ScrubImageViewerTests.xctest */,
+				DBF437611C90ED3100317E15 /* ScrubImageViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBF4373F1C90ED3100317E15 /* ScrubImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				DBF437431C90ED3100317E15 /* AppDelegate.h */,
+				DBF437441C90ED3100317E15 /* AppDelegate.m */,
+				DBF437461C90ED3100317E15 /* ViewController.h */,
+				DBF437471C90ED3100317E15 /* ViewController.m */,
+				DBF437491C90ED3100317E15 /* Main.storyboard */,
+				DBF4374C1C90ED3100317E15 /* Assets.xcassets */,
+				DBF4374E1C90ED3100317E15 /* LaunchScreen.storyboard */,
+				DBF437511C90ED3100317E15 /* Info.plist */,
+				DBF437401C90ED3100317E15 /* Supporting Files */,
+			);
+			path = ScrubImageViewer;
+			sourceTree = "<group>";
+		};
+		DBF437401C90ED3100317E15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBF437411C90ED3100317E15 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBF437591C90ED3100317E15 /* ScrubImageViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBF4375A1C90ED3100317E15 /* ScrubImageViewerTests.m */,
+				DBF4375C1C90ED3100317E15 /* Info.plist */,
+			);
+			path = ScrubImageViewerTests;
+			sourceTree = "<group>";
+		};
+		DBF437641C90ED3100317E15 /* ScrubImageViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBF437651C90ED3100317E15 /* ScrubImageViewerUITests.m */,
+				DBF437671C90ED3100317E15 /* Info.plist */,
+			);
+			path = ScrubImageViewerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBF4373C1C90ED3100317E15 /* ScrubImageViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF4376A1C90ED3100317E15 /* Build configuration list for PBXNativeTarget "ScrubImageViewer" */;
+			buildPhases = (
+				DBF437391C90ED3100317E15 /* Sources */,
+				DBF4373A1C90ED3100317E15 /* Frameworks */,
+				DBF4373B1C90ED3100317E15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrubImageViewer;
+			productName = ScrubImageViewer;
+			productReference = DBF4373D1C90ED3100317E15 /* ScrubImageViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBF437551C90ED3100317E15 /* ScrubImageViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF4376D1C90ED3100317E15 /* Build configuration list for PBXNativeTarget "ScrubImageViewerTests" */;
+			buildPhases = (
+				DBF437521C90ED3100317E15 /* Sources */,
+				DBF437531C90ED3100317E15 /* Frameworks */,
+				DBF437541C90ED3100317E15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBF437581C90ED3100317E15 /* PBXTargetDependency */,
+			);
+			name = ScrubImageViewerTests;
+			productName = ScrubImageViewerTests;
+			productReference = DBF437561C90ED3100317E15 /* ScrubImageViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBF437601C90ED3100317E15 /* ScrubImageViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF437701C90ED3100317E15 /* Build configuration list for PBXNativeTarget "ScrubImageViewerUITests" */;
+			buildPhases = (
+				DBF4375D1C90ED3100317E15 /* Sources */,
+				DBF4375E1C90ED3100317E15 /* Frameworks */,
+				DBF4375F1C90ED3100317E15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBF437631C90ED3100317E15 /* PBXTargetDependency */,
+			);
+			name = ScrubImageViewerUITests;
+			productName = ScrubImageViewerUITests;
+			productReference = DBF437611C90ED3100317E15 /* ScrubImageViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBF437351C90ED3100317E15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Andrew Rohn";
+				TargetAttributes = {
+					DBF4373C1C90ED3100317E15 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					DBF437551C90ED3100317E15 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = DBF4373C1C90ED3100317E15;
+					};
+					DBF437601C90ED3100317E15 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = DBF4373C1C90ED3100317E15;
+					};
+				};
+			};
+			buildConfigurationList = DBF437381C90ED3100317E15 /* Build configuration list for PBXProject "ScrubImageViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBF437341C90ED3100317E15;
+			productRefGroup = DBF4373E1C90ED3100317E15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBF4373C1C90ED3100317E15 /* ScrubImageViewer */,
+				DBF437551C90ED3100317E15 /* ScrubImageViewerTests */,
+				DBF437601C90ED3100317E15 /* ScrubImageViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBF4373B1C90ED3100317E15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF437501C90ED3100317E15 /* LaunchScreen.storyboard in Resources */,
+				DBF4374D1C90ED3100317E15 /* Assets.xcassets in Resources */,
+				DBF4374B1C90ED3100317E15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF437541C90ED3100317E15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF4375F1C90ED3100317E15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBF437391C90ED3100317E15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF437481C90ED3100317E15 /* ViewController.m in Sources */,
+				DBF437451C90ED3100317E15 /* AppDelegate.m in Sources */,
+				DBF437421C90ED3100317E15 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF437521C90ED3100317E15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF4375B1C90ED3100317E15 /* ScrubImageViewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF4375D1C90ED3100317E15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF437661C90ED3100317E15 /* ScrubImageViewerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBF437581C90ED3100317E15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBF4373C1C90ED3100317E15 /* ScrubImageViewer */;
+			targetProxy = DBF437571C90ED3100317E15 /* PBXContainerItemProxy */;
+		};
+		DBF437631C90ED3100317E15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBF4373C1C90ED3100317E15 /* ScrubImageViewer */;
+			targetProxy = DBF437621C90ED3100317E15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBF437491C90ED3100317E15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBF4374A1C90ED3100317E15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBF4374E1C90ED3100317E15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBF4374F1C90ED3100317E15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBF437681C90ED3100317E15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DBF437691C90ED3100317E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBF4376B1C90ED3100317E15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScrubImageViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewrohn.ScrubImageViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBF4376C1C90ED3100317E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScrubImageViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewrohn.ScrubImageViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DBF4376E1C90ED3100317E15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScrubImageViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewrohn.ScrubImageViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrubImageViewer.app/ScrubImageViewer";
+			};
+			name = Debug;
+		};
+		DBF4376F1C90ED3100317E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScrubImageViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewrohn.ScrubImageViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrubImageViewer.app/ScrubImageViewer";
+			};
+			name = Release;
+		};
+		DBF437711C90ED3100317E15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScrubImageViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewrohn.ScrubImageViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScrubImageViewer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DBF437721C90ED3100317E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScrubImageViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewrohn.ScrubImageViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScrubImageViewer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBF437381C90ED3100317E15 /* Build configuration list for PBXProject "ScrubImageViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF437681C90ED3100317E15 /* Debug */,
+				DBF437691C90ED3100317E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBF4376A1C90ED3100317E15 /* Build configuration list for PBXNativeTarget "ScrubImageViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF4376B1C90ED3100317E15 /* Debug */,
+				DBF4376C1C90ED3100317E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBF4376D1C90ED3100317E15 /* Build configuration list for PBXNativeTarget "ScrubImageViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF4376E1C90ED3100317E15 /* Debug */,
+				DBF4376F1C90ED3100317E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBF437701C90ED3100317E15 /* Build configuration list for PBXNativeTarget "ScrubImageViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF437711C90ED3100317E15 /* Debug */,
+				DBF437721C90ED3100317E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBF437351C90ED3100317E15 /* Project object */;
+}
